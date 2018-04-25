@@ -26,7 +26,7 @@ vapp = new Vue({
     mapType: 'erangel',
     followMe: true,
     isDesert: false,
-    showBox: false,
+    showBox: true,
     showAirDrop: true,
     showCar: true,
 
@@ -42,7 +42,7 @@ vapp = new Vue({
 
     // --------------------------------------------------------------------------
 
-    showBack: true,
+    showBack: false,
     showArmor2: true,
     showHead2: true,
     showArmor3: true,
@@ -50,7 +50,7 @@ vapp = new Vue({
     showFirstAid: true,
     showMedKit: true,
     showDrink: true,
-    showGrenade: true,
+    showGrenade: false,
     showSmokeBomb: false,
     showAmmo556: false,
     showAmmo762: false,
@@ -65,13 +65,13 @@ vapp = new Vue({
     showSRSuppressor: true,
     showSRExtended: false,
     showSRStock: false,
-    showM16A4: false,
+    showM16A4: true,
     showSCAR: true,
-    showAK47: false,
+    showAK47: true,
     showHK416: true,
     showPan: true,
-    showMini14: false,
-    showSKS: false,
+    showMini14: true,
+    showSKS: true,
     showKar98k: true,
 
     // --------------------------------------------------------------------------
